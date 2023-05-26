@@ -1,0 +1,20 @@
+{
+  "name": "everscale-standalone-client-example",
+  "private": true,
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "prettier": "./prettierrc.json",
+  "dependencies": {
+    "everscale-inpage-provider": "0.3.61",
+    "everscale-standalone-client": "2.1.16",
+    "ts-node": "^10.9.1",
+    "js-base64": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "typescript": "^5.0.4"
+  }
+}
